@@ -14,10 +14,56 @@
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 </head>
 <body>
-    <h1>Teste</h1>
-    <ion-icon name="heart"></ion-icon>
-    <i class="devicon-threedsmax-plain"></i>
+    <main id="container">
+        <aside id="bio-container">
+            <h2>José Erico</h2>
+            <img src="img/eu.png" alt="José Erico">
+            <p>Olá, meu nome é José Erico e sou <span class="highlight">Desenvolvedor FullStack</span>.</p>
+            <p id="welcome-text">Seja bem-vindo!</p>
+            <ul id="social-container">
+                <li><a href="https://www.instagram.com/erico.ls/" target="_blank"> <ion-icon name="logo-instagram"></ion-icon></a></li>
+                <li><a href="https://www.linkedin.com/in/jos%C3%A9-erico-a76860250/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+            </ul>
+            <div id="email-container">
+                <ion-icon name="mail-outline"></ion-icon><a href="mailto:jose.ericos.ls@gmail.com">jose.ericos.ls@gmail.com</a>
+            </div>
+        </aside>
+        <section id="about-container">
+            <h1 id="name">José Erico</h1>
+            <p id="title"><span class="highlight">Desenvolvedor FullStack</span></p>
+            <p class="description">Olá, me chamo José Erico, sou um desenvolvedor que almeja uma  oportunidades no mercado. Algumas das minhas ferramentas favoritas você encontra abaixo.
+                Gosto de participar da <span class="highlight">criação do banco de dados e da integração das regras de negócio</span>, tal como o <span class="highlight">tratamento de dados e levantamento de requisitos</span>. Também participar e discutir nas reuniões como será a abordagem de design da aplicação.
+            </p>
+            <p class="description">Alguns dos meu hobbies favoritos são: Leitura, corrida, ciclismo, culinária.</p>
+            <a href="https://github.com/joseericols" id="btn-project"><ion-icon name="share-social-outline"></ion-icon><span>Ver Projetos</span></a>
+            <h2 id="skill-section-title">Minhas Skills</h2>
+            <p class="description">Conheça as tecnologias que domino:</p>
+            <div id="skills-container">
+                <div class="skills-box">
+                    <p class="skills-title">Front-end</p>
+                    <i class="devicon-html5-plain colored"></i>
+                    <i class="devicon-css3-plain colored"></i>
+                    <i class="devicon-javascript-plain colored"></i>
+                </div>
+            </div>
+            <div id="skills-container">
+                <div class="skills-box">
+                    <p class="skills-title">Back-end</p>
+                    <i class="devicon-java-plain colored"></i>
+                    <i class="devicon-php-plain colored"></i>
+                    <i class="devicon-python-plain colored"></i>
+                </div>
+            </div>  
+            <div id="skills-container">
+                <div class="skills-box">
+                    <p class="skills-title">Databases</p>
+                    <i class="devicon-mysql-plain colored"></i>
+                </div>
+            </div>     
+        </section>
+    </main>
 
+    <!-- Ion Icons -->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
